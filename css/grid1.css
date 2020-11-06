@@ -1,0 +1,30 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main {
+  display: grid;
+  /* width: 350px; */
+  grid-template-rows: 4fr minmax(180px, 220px) auto 4fr max-content 1fr;
+  height: 100vh;
+  justify-items: center;
+}
+
+main h1 {
+  text-align: right;
+  writing-mode: vertical-rl;
+  font-size: 4em;
+  grid-row: 2 / 3;
+  margin-right: 0px;
+  margin-left: 18px;
+}
+
+main img {
+  grid-row: 3 / 4;
+}
+
+main footer {
+  text-align: center;
+  font-size: 0.8em;
+  grid-row: 5 / 6;
+}
