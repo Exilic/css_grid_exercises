@@ -1,0 +1,26 @@
+body {
+  font-family: Myriad Pro;
+  display: grid;
+  grid-template: 250px auto / 80px 160px 400px auto;
+}
+
+body article {
+  grid-area: 2 / 3 / 3 /4;
+}
+
+body article h1 {
+  font-size: 1.2em;
+}
+
+body article p {
+  font-size: 1em;
+  line-height: 135%;
+}
+
+body aside {
+  grid-area: 2 / 2 / 3 / 3;
+  font-size: 0.7em;
+  margin: 80px 20px 0px 0px;
+  color: red;
+  text-align: right;
+}
