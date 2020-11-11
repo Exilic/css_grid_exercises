@@ -1,0 +1,33 @@
+body {
+  font-family: minion-pro, serif;
+  display: grid;
+  grid-template: 150px auto / 220px 460px auto;
+}
+
+body h1 {
+  grid-area: 2 / 1 / 3 / 2;
+  font-weight: 400;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 45px;
+  /* padding-top: 25px; */
+}
+
+body main {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+body main p {
+  padding: 0px 0px 0px 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1em;
+  text-indent: -30px;
+  line-height: 1.3em;
+  font-variant-numeric: oldstyle-nums;
+  -moz-font-feature-settings: "onum";
+  -webkit-font-feature-settings: "onum";
+  font-feature-settings: "onum";
+}
