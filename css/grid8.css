@@ -1,0 +1,13 @@
+body {
+  background-image: url(/images/pattern2.svg);
+  background-repeat: repeat;
+  background-size: 10%;
+  font-family: "Bangers", cursive;
+}
+
+body h1 {
+  font-size: 8em;
+  color: #940784;
+  text-shadow: 2px 2px 8px #2d5cfc;
+  text-align: center;
+}
