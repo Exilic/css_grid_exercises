@@ -1,0 +1,37 @@
+body {
+  display: grid;
+  grid-template: 50vh 50vh / 50vw 50vw;
+}
+
+body article {
+  display: block;
+  position: relative;
+}
+
+body article img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+body article div {
+  position: absolute;
+  margin: 0;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+}
+
+body article div h2 {
+  font-size: 4em;
+  color: chartreuse;
+}
+
+body article div p {
+  font-size: 3em;
+  color: darkorchid;
+}
