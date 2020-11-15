@@ -1,0 +1,72 @@
+body {
+  font-family: neue-haas-unica, sans-serif;
+  display: grid;
+  grid-template: 100px 1fr / 2fr 1fr;
+}
+
+header {
+  grid-area: 1 / 1 / 2 / 3;
+  background-color: bisque;
+  margin-bottom: 20px;
+}
+
+main {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: antiquewhite;
+  margin-right: 10px;
+}
+
+#head_article {
+  background-image: url("/images/meeting.png");
+  background-position: center;
+  height: 300px;
+  position: relative;
+}
+
+main h2 {
+  mask-image: linear-gradient (to bottom, transparent 25%, black 75%);
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(0%, -50%);
+  width: 20%;
+  color: white;
+}
+
+main > h1,
+p {
+  margin-left: 20%;
+  margin-right: 15%;
+}
+aside {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: beige;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+aside section {
+  display: block;
+  height: 150px;
+  padding: 5px;
+  margin: 5px;
+  background-color: azure;
+}
+
+aside section:nth-child(1) {
+  background-image: url("/images/pattern2.svg");
+  background-size: auto 60px;
+  background-repeat: repeat-x;
+  border-radius: 8px 8px 0px 0px;
+}
+
+aside section h2 {
+  color: white;
+  font-size: 2em;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 3px;
+  text-shadow: 3px 3px black;
+}
