@@ -1,0 +1,41 @@
+nav ul {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+nav li:hover {
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style: none;
+  display: block;
+  position: relative;
+  padding: 8px 25px 8px 25px;
+  float: left;
+}
+
+nav ul li ul {
+  visibility: hidden;
+  position: absolute;
+  display: none;
+
+  left: 0;
+}
+
+nav ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+nav ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  display: block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
