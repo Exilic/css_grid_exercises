@@ -1,0 +1,26 @@
+body {
+  width: 800px;
+  margin: auto;
+  background-color: beige;
+  position: relative;
+}
+
+body h1 {
+  padding-top: 80px;
+  font-size: 5em;
+  position: absolute;
+  z-index: 2;
+  color: firebrick;
+  font-family: neue-haas-unica, sans-serif;
+}
+.circle-text {
+  position: absolute;
+  filter: drop-shadow(0.4em 0.4em 0.4em rgba(0, 0, 0, 0.5));
+}
+
+body p {
+  width: 300px;
+  background-color: white;
+  clip-path: circle(140px at 50% 50%);
+  transform: rotate(-10deg);
+}
