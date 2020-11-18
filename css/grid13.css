@@ -1,0 +1,55 @@
+body {
+  display: grid;
+  grid-template: 70px 1fr 110px / 800px 1fr;
+  font-family: neue-haas-unica, sans-serif;
+}
+
+header {
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  background-color: black;
+  color: white;
+}
+
+header ul li {
+  padding: 5px 20px 5px 20px;
+  font-size: 1.6em;
+  font-weight: 400;
+}
+
+main {
+  grid-area: 2 / 1 / 3 / 2;
+  padding: 0px 40px 90px 150px;
+}
+
+main h1 {
+  font-size: 4em;
+  font-weight: 600;
+}
+
+main p {
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+aside {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: bisque;
+}
+
+footer {
+  grid-area: 3 / 1 / 4 / 3;
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  font-weight: 200;
+  display: flex;
+}
+
+footer * {
+  padding-left: 30px;
+}
