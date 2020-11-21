@@ -1,0 +1,164 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template: 40px 1fr auto / 75vw 25vw;
+  font-family: "Myriad Pro", "sans serif";
+  color: #111111;
+  margin: 0;
+}
+
+p {
+  font-weight: 300;
+}
+
+header {
+  grid-area: 1 / 1 / 2 / 3;
+  background-color: #333333;
+  color: white;
+  font-size: 0.8em;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+nav ul li {
+  padding: 5px 20px;
+}
+
+main {
+  grid-area: 2 / 1 / 3 / 2;
+  display: grid;
+  grid-template-columns: 3fr 7fr 2fr;
+  margin-top: 90px;
+}
+
+main nav {
+  grid-column: 1 / 2;
+  margin: 0 3em;
+}
+
+main nav section:first-of-type {
+  border-left: #111111 2px solid;
+  padding-left: 0.5em;
+  margin-bottom: 70px;
+}
+
+main nav h2 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+main nav p {
+  font-size: 1.1em;
+}
+
+main nav ol {
+  list-style-type: lower-roman;
+  display: flex;
+  flex-direction: column;
+
+  font-size: 1.1em;
+  color: #1a73e8;
+}
+
+main nav ol li {
+  padding-bottom: 1em;
+}
+
+main article {
+  grid-column: 2 / 3;
+}
+
+main aside {
+  grid-column: 3 / 4;
+}
+
+main article h1 {
+  font-size: 3.9em;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 0px;
+}
+
+main article h2 {
+  font-size: 1.6em;
+  font-weight: 600;
+  padding: 0;
+  margin: 1.4em 0 0.2em 0;
+}
+
+main article p {
+  text-indent: 1.5em;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 0px;
+}
+
+main article p:first-of-type {
+  text-indent: 0em;
+}
+
+main article footer {
+  border: none;
+  padding-top: 4em;
+}
+
+main article footer p {
+  font-style: italic;
+  font-size: 1em;
+}
+
+aside {
+  grid-area: 2 / 2 / 3 / 3;
+  margin: 230px 40px 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+aside section {
+  padding: 0.3em;
+}
+
+aside section:first-of-type {
+  border-top: #cccccc 2px solid;
+  padding-top: 20px;
+}
+
+aside h2 {
+  font-size: 0.8em;
+  font-weight: 800;
+  text-align: left;
+  padding: 0;
+  margin: 1.4em 0 0.2em 0;
+  color: #1a73e8;
+}
+
+aside p {
+  font-size: 0.8em;
+  margin: 0px;
+}
+footer {
+  grid-area: 3 / 1 / 4 / 3;
+  border-top: 2px solid #cccccc;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer section {
+  margin: 15px 20px 30px 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
