@@ -1,0 +1,53 @@
+body {
+  font-family: "Myriad Pro", "sans serif";
+  color: #111111;
+  width: 600px;
+  height: 800px;
+  margin: 10px auto;
+}
+
+#img1 {
+  width: 300px;
+  height: 200px;
+  opacity: 0.9;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+
+#img1:hover {
+  opacity: 1;
+  box-shadow: 5px 5px 5px #eeeeee;
+}
+
+#img2 {
+  display: block;
+  opacity: 0.9;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.frame {
+  position: relative;
+}
+
+.translucent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255, 0.4);
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.text {
+  font-size: 1.4em;
+  color: rgb(255, 255, 255, 0.7);
+  padding: 5px;
+}
+.frame:hover .translucent {
+  height: 20%;
+}
