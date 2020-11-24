@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  display: grid;
+  grid-template: 50px auto auto / 40px auto;
+  font-family: "Myriad Pro", sans-serif;
+  color: #111111;
+}
+
+p,
+h2,
+h3 {
+  font-size: 1.6vw;
+}
+
+.material-icons {
+  font-size: 20px;
+  color: white;
+}
+
+body > aside {
+  background-color: #333333;
+  grid-area: 1 / 1 / 4 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  position: fixed;
+  padding: 0 5px;
+}
+
+body > aside i {
+  padding: 11px 0;
+}
+
+body > header {
+  grid-area: 1 / 2 / 2 / 3;
+  padding-right: 20px;
+}
+
+body > header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+
+body > header li {
+  font-size: 0.8em;
+  padding: 0 20px;
+}
+
+body > main {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+body > main > article {
+  display: grid;
+  grid-template: auto auto auto / 260px auto;
+  margin-right: 300px;
+}
+
+body > main > article > header {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+body > main > article > header p {
+  text-align: justify;
+}
+
+body > main > article > figure {
+  grid-area: 1 / 1 / 4 / 2;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+body > main > article > figure img {
+  margin: 15px 30px;
+  width: 200px;
+  height: 200px;
+}
+
+body > main > article > section {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+body > main > article > section h2 {
+  text-align: right;
+}
+body > main > article > section p {
+  text-align: justify;
+}
+body > main > article > footer {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+body > main > article > footer h3 {
+  text-align: right;
+}
+
+body > main > article > footer p {
+  text-align: justify;
+}
+
+body > main h1 {
+  font-size: 5.2vw;
+  font-weight: 600;
+  text-align: right;
+  padding-top: 150px;
+}
+
+body > footer {
+  grid-area: 3 / 2 / 4 / 3;
+  border-top: 1px solid #dddddd;
+  text-align: right;
+  padding-right: 40px;
+  padding-left: 50vw;
+}
+
+body > footer > section {
+}
