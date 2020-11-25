@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: "Myriad Pro", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  column-gap: 0.5em;
+}
+
+aside {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  column-gap: 0.5em;
+}
+
+article * {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  hyphens: auto;
+}

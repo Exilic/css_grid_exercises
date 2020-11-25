@@ -12,6 +12,10 @@ h3 {
   font-size: 1.6vw;
 }
 
+p {
+  hyphens: auto;
+}
+
 .material-icons {
   font-size: 20px;
   color: white;
