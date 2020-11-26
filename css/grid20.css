@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Myriad Pro", sans-serif;
+  font-family: myriad-pro, sans-serif;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
 }
