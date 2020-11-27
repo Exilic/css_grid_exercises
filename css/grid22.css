@@ -1,0 +1,24 @@
+body {
+  display: grid;
+  grid-template-columns: minmax(200px, 30%) 1fr;
+  font-family: myriad-pro, sans-serif;
+}
+
+aside {
+  grid-column: 1 / 2;
+}
+
+main {
+  grid-column: 2 / 3;
+  width: 360px;
+  overflow: hidden;
+}
+
+main img {
+  transform: translate(360px);
+}
+
+main:hover img {
+  transform: translate(0px);
+  transition: 0.2s ease;
+}
