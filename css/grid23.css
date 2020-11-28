@@ -1,0 +1,23 @@
+body {
+  width: 360px;
+  margin: 20vh auto;
+  overflow: hidden;
+  height: auto;
+  display: block;
+}
+
+p {
+  font-size: 1.4rem;
+  font-family: myriad-pro;
+  color: #ffffff;
+  margin: 0;
+}
+
+img:hover {
+  transform: translate(-0px, -12px);
+  transition: 0.2s;
+}
+
+img:hover + p {
+  color: #666666;
+}
