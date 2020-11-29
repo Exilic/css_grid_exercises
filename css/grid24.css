@@ -1,0 +1,28 @@
+body {
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  clip-path: polygon(0 0, 0 40%, 70% 20%, 100% 0);
+  transition: clip-path 0.5s;
+}
+
+img:hover {
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+}
+
+p {
+  background-color: aliceblue;
+  padding: 60px;
+  width: 20vw;
+  font-family: myriad-pro;
+  font-weight: 100;
+  font-size: 1.3rem;
+  transition: background-color 0.4s, border-bottom 0s;
+}
+
+p:hover {
+  background-color: white;
+  border-bottom: 1px solid #dddddd;
+}

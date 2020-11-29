@@ -15,7 +15,7 @@ p {
 
 img:hover {
   transform: translate(-0px, -12px);
-  transition: 0.2s;
+  transition-duration: 0.2s;
 }
 
 img:hover + p {
