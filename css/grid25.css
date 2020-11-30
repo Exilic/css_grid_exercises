@@ -1,0 +1,25 @@
+body {
+  width: 200px;
+  margin: 100px auto;
+}
+
+p {
+  font-size: 1.4rem;
+  font-style: italic;
+  font-family: minion-pro;
+  opacity: 0.3;
+  transition: 0.5s;
+}
+
+img {
+  opacity: 0.3;
+  transition: 0.5s;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+img:hover + p {
+  opacity: 1;
+}
