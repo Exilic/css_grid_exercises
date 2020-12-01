@@ -1,0 +1,21 @@
+
+<svg height="0" width="0">
+	<defs>
+		<clippath id="circle">
+			<rect x="54.3" y="158.7" width="261.5" height="17.5"/>
+			<path d="M90.3,154.2c6.5-46.6,46.4-82.5,94.8-82.5s88.4,35.9,94.8,82.5h19.3C292.6,97,244.1,52.5,185.1,52.5S77.5,97,70.9,154.2
+							H90.3z"/>
+			<path d="M279.9,180.7c-6.5,46.6-46.4,82.5-94.8,82.5s-88.4-35.9-94.8-82.5H70.9c6.6,57.2,55.2,101.6,114.1,101.6
+							s107.6-44.4,114.1-101.6H279.9z"/>
+		</clippath>
+		<clippath id="rect">
+			<path d="M67.5,64.5v274h282v-274H67.5z M268.5,253.5H90V88h178.5V253.5z"/>
+			<rect x="169" y="155.5" width="77" height="77"/>
+		</clippath>
+		<clippath id="lines">
+			<rect x="1" y="136.5" width="361.5" height="46"/>
+			<rect y="239.5" width="363.5" height="68"/>
+			<rect x="2.5" width="360" height="23"/>
+		</clippath>
+	</defs>
+</svg>

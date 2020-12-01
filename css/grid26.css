@@ -1,0 +1,16 @@
+body {
+  margin: auto;
+  width: 740px;
+}
+
+body img:nth-child(1) {
+  clip-path: url(#circle);
+}
+
+body img:nth-child(2) {
+  clip-path: url(#rect);
+}
+
+body img:nth-child(3) {
+  clip-path: url(#lines);
+}
