@@ -1,0 +1,23 @@
+body {
+  font-family: myriad-pro;
+  width: 45vw;
+  margin: 10vh auto;
+  color: #111111;
+}
+
+h1 {
+  font-size: 3.6rem;
+  color: #ff3b30;
+}
+
+p {
+  font-size: 1.1;
+  hyphens: auto;
+  padding-right: 12vw;
+}
+
+h1 + p {
+  font-style: italic;
+  font-size: 1.4rem;
+  padding-right: 0;
+}
