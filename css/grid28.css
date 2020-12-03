@@ -1,0 +1,31 @@
+body {
+  width: 60vw;
+  margin: 15vh auto;
+  font-family: myriad-pro;
+  color: #111111;
+}
+
+h1 {
+  font-size: 3.6rem;
+  color: #af52de;
+}
+
+h1 + p {
+  padding-right: 0;
+  font-size: 1.8rem;
+}
+
+p {
+  padding-right: 23vw;
+  font-size: 1.1rem;
+}
+
+p + img {
+  width: 25%;
+  float: right;
+}
+
+img + p {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
