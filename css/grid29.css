@@ -1,0 +1,62 @@
+body {
+  font-family: myriad-pro;
+  color: #111111;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  padding: 0.2rem;
+}
+
+section * {
+  width: 14rem;
+  margin: 0;
+}
+section img {
+  object-fit: cover;
+  height: 18rem;
+  filter: grayscale();
+}
+
+section img:hover {
+  filter: sepia();
+}
+
+section > p:first-child {
+  color: #555555;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+section > img + p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-align: right;
+  margin-top: 0.2rem;
+}
+
+section > h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #007aff;
+  margin-top: 1rem;
+}
+
+section > h3 + p {
+  font-weight: 100;
+  font-size: 1.3rem;
+  margin-top: 0.6rem;
+  text-indent: 1rem;
+}
+section > p + p {
+  font-family: myriad-pro-condensed;
+  font-weight: 600;
+  font-size: 2.4rem;
+  text-align: right;
+  transform: translate(-1rem, -2rem);
+}
