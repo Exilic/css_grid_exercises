@@ -1,0 +1,27 @@
+body {
+  color: #111111;
+  font-family: myriad-pro;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main > section {
+  flex: 0 1 300px;
+  padding: 1rem;
+}
+
+main > section:hover {
+  color: #0280ff;
+}
+h2 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 0.9rem;
+  hyphens: auto;
+}
