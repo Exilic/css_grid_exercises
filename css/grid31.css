@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background-color: #0d0202;
+  font-family: neue-haas-unica;
+}
+
+body * {
+  margin-left: 9rem;
+}
+img {
+  width: 100vw;
+  height: 40vh;
+  object-fit: cover;
+  margin-left: 0;
+}
+
+h1 {
+  color: #784c4c;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+h2 {
+  color: #452b2b;
+  padding-top: 3rem;
+  font-size: 1.8rem;
+}
+
+body > p {
+  font-size: 2.5vw;
+  color: #452b2b;
+  width: 70vw;
+  font-weight: 300;
+}
