@@ -1,0 +1,44 @@
+body {
+  font-family: myriad-pro;
+  color: #2d0505;
+  padding-top: 50px;
+}
+
+article {
+  display: inline-block;
+}
+
+aside {
+  display: inline-block;
+  color: darkslateblue;
+}
+
+article * {
+  width: 10rem;
+  height: 10rem;
+  display: inline-block;
+}
+
+article > h1 {
+  vertical-align: top;
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+h1 + p {
+  vertical-align: middle;
+}
+
+p + p {
+  font-size: 0.8rem;
+}
+
+img + p {
+  text-align: right;
+}
+
+article img {
+  display: inline-block;
+
+  object-fit: cover;
+}
