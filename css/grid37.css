@@ -1,0 +1,36 @@
+body {
+  width: 500px;
+  margin: 50px auto;
+  color: #111111;
+  font-size: 20px;
+  font-family: myriad-pro;
+  hyphens: auto;
+}
+
+article {
+  counter-reset: numeral;
+}
+sup::before {
+  counter-increment: numeral;
+  content: counter(numeral);
+}
+
+sup {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+footer {
+  counter-reset: footnote;
+}
+
+footer p::before {
+  counter-increment: footnote;
+  content: counter(footnote) ". ";
+}
+
+footer p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin: 0;
+}
