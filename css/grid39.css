@@ -1,0 +1,23 @@
+body {
+  counter-reset: sidenote;
+  width: 400px;
+  margin: auto;
+}
+
+span {
+  position: absolute;
+  left: 0;
+  transform-box: content-box;
+  transform: translate(-200%);
+  display: inline;
+}
+
+sup::before {
+  counter-increment: sidenote;
+  content: counter(sidenote);
+  font-size: 0.6rem;
+}
+
+p {
+  position: relative;
+}
