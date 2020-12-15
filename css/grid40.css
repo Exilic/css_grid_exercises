@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 0.7rem;
+  font-family: myriad-pro;
+  justify-content: space-between;
+  hyphens: auto;
+}
+
+body p:first-child {
+  margin-left: 40px;
+}
+
+body p:first-child::first-line {
+  color: coral;
+}
+
+body p:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+body p:last-of-type {
+  margin-right: 40px;
+}
+
+body p:last-of-type::after {
+  content: " ■";
+}
