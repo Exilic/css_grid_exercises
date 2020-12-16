@@ -1,0 +1,30 @@
+html {
+  background-image: url(/images/meeting.png);
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  font-family: myriad-pro;
+  display: flex;
+  font-size: 0.9rem;
+  height: 100%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(200, 130, 90, 0.4),
+    rgba(40, 23, 79, 0.3)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p:first-of-type {
+  margin-left: 200px;
+  background: linear-gradient(#efd3db, #a3be09);
+  background-blend-mode: difference;
+}
+
+p:last-of-type {
+  margin-right: 50px;
+}
