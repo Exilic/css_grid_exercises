@@ -1,0 +1,10 @@
+/* Firefox only */
+
+@counter-style testing {
+  system: cyclic;
+  symbols: ⚽️ 🏀 🥎;
+}
+
+ol li {
+  list-style: testing;
+}
