@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: myriad-pro;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 15px;
+}
+
+header nav:nth-child(1) ul {
+  justify-content: space-between;
+  background-color: cadetblue;
+  color: white;
+}
+
+header nav:nth-child(2) ul {
+  justify-content: flex-end;
+  font-size: 0.8rem;
+  color: #111;
+}
+
+header nav:nth-child(3) ul {
+  justify-content: flex-start;
+  font-size: 0.9rem;
+  font-weight: 900;
+  color: #888;
+  border-top: 0.5px solid #888;
+}
+
+header nav:nth-child(4) ul {
+  justify-content: center;
+  font-weight: 900;
+  font-size: 1.1rem;
+  color: #e94256;
+  background-color: #f5f5f7;
+}
+
+header nav:nth-child(5) ul {
+  justify-content: space-around;
+  font-size: 0.9rem;
+  color: #f5f5f7;
+  background-color: #333;
+}
