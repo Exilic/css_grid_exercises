@@ -1,0 +1,36 @@
+body {
+  background-color: #ddd;
+  font-family: myriad-pro;
+
+  margin-left: 30px;
+}
+
+form * {
+  display: block;
+}
+
+form label {
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding-bottom: 0.4rem;
+}
+
+form input[type="text"] {
+  border: none;
+  width: 20rem;
+  height: 2rem;
+  background: rgba(255, 255, 255, 0.6) url(/images/email-24px.svg) no-repeat
+    0.4rem;
+  padding: 0.4rem 0 0.4rem 3rem;
+  color: #2e4a80;
+}
+
+form input[type="submit"] {
+  background-color: #2e4a80;
+  color: #ddd;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  margin-top: 0.3rem;
+  border: none;
+  font-size: 0.8rem;
+}
