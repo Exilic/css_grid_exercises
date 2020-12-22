@@ -1,0 +1,28 @@
+body {
+  margin: 100px;
+  font-family: myriad-pro;
+  background-color: #d8bfd8;
+}
+
+select {
+  appearance: menulist;
+  background-color: #fffaff;
+  border: 2px solid #8c6d8c;
+  width: 150px;
+  padding: 5px;
+  color: #8c6d8c;
+  border-radius: 4px;
+  font-family: myriad-pro;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+select:hover {
+  background-color: #c8d9bf;
+}
+
+select:focus {
+  outline-color: #d8bfd8;
+  outline-offset: 0px;
+  background-color: #c8d9bf;
+}
