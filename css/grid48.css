@@ -1,0 +1,22 @@
+form input[type="radio"]:hover {
+  cursor: pointer;
+}
+
+label {
+  font-size: 1.4rem;
+}
+
+form input[type="radio"] {
+  border: 0.4em solid currentColor;
+}
+
+img {
+  transform: rotate(-90deg);
+  opacity: 0;
+}
+
+img:hover {
+  transform: rotate(0deg);
+  transition: 1s;
+  opacity: 1;
+}
