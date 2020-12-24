@@ -1,0 +1,15 @@
+p:nth-child(1) {
+  font-family: myriad-pro;
+  font-size: 2rem;
+  transform: rotate(30deg) skew(30deg) scaleY(0.86);
+  width: 300px;
+  margin: 100px auto 0px auto;
+}
+
+p:nth-child(2) {
+  font-family: myriad-pro;
+  font-size: 2rem;
+  transform: rotate(-30deg) skew(-30deg) scaleY(0.86);
+  width: 300px;
+  margin: auto;
+}
