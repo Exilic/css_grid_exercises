@@ -1,0 +1,27 @@
+main {
+  margin-left: 200px;
+  position: relative;
+  color: #fff;
+}
+
+main p {
+  position: absolute;
+  color: #000;
+  z-index: 1;
+  width: 30vw;
+  padding: 5px;
+  font-size: 1.6rem;
+}
+
+main h1 {
+  position: absolute;
+  width: 30vw;
+  font-size: 3.2rem;
+}
+
+main img {
+  position: absolute;
+  opacity: 0.5;
+  width: 30vw;
+  z-index: -1;
+}
