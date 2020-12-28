@@ -1,0 +1,33 @@
+body {
+  font-size: 1.2rem;
+  font-family: minion-3-display;
+  display: grid;
+  grid-template: 100px auto / 40px 1fr 1fr minmax(35ch, 66ch) 1fr;
+}
+
+header {
+  grid-area: 1 / 3 / 2 / 5;
+  display: flex;
+}
+
+header p {
+  padding-right: 2rem;
+}
+
+article {
+  grid-area: 2 / 4 / 3 / 5;
+  text-indent: 1rem;
+}
+
+article h1 {
+  text-indent: 0;
+  font-size: 2.5rem;
+}
+article p {
+  margin: 0;
+}
+
+h1 + p {
+  padding-top: 1rem;
+  text-indent: 0;
+}
