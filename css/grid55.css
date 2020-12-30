@@ -1,0 +1,43 @@
+body {
+  font-family: minion-3-display;
+}
+
+main {
+  display: grid;
+  grid-template: 1fr 2fr 2fr 1fr / 1fr 2fr 2fr 1fr;
+}
+
+header {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+header h2 {
+  font-size: 3rem;
+  color: rgba(0, 0, 255, 0.3);
+}
+article {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+article h1 {
+  font-size: 3.5rem;
+  color: rgba(41, 2, 2, 0.6);
+  margin-left: -30vw;
+}
+
+article p {
+  font-size: 2.1rem;
+  color: rgba(210, 105, 30, 0.6);
+  margin-top: -18vh;
+  margin-left: -16vw;
+}
+
+footer {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+footer p {
+  font-size: 1.6rem;
+  color: rgba(27, 2, 26, 0.6);
+  margin: 0 -10vw 0 10vw;
+}
