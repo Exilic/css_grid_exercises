@@ -1,0 +1,17 @@
+body {
+  margin: 50px;
+}
+
+input {
+  font-family: myriad-pro;
+  font-size: 1.4rem;
+  text-indent: 0.8rem;
+  font-weight: 600;
+  color: #555;
+  border: 1px solid #999;
+  border-bottom: 3px solid #999;
+  padding: 6px 0;
+  background: url(/images/search-solid.svg) no-repeat;
+  background-position: right;
+  background-size: 12%;
+}
