@@ -1,0 +1,14 @@
+body {
+  margin: 40px auto;
+  width: 600px;
+  background-color: #401400;
+}
+
+h1 {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 4.5rem;
+  color: rgb(255, 81, 0);
+  text-shadow: 3px 5px 5px rgba(255, 81, 0, 0.3);
+}
