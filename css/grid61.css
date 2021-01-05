@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: myriad-pro;
+  font-size: 16px;
+  position: relative;
+  background-color: #888;
+  color: #888;
+  animation: 4s ease-in 1s forwards fadeToBW;
+}
+
+h1 {
+  position: absolute;
+  font-size: 2.6rem;
+  top: 40vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes fadeToBW {
+  0% {
+    background-color: #888;
+    color: #888;
+  }
+  100% {
+    background-color: #333;
+    color: #ccc;
+  }
+}
