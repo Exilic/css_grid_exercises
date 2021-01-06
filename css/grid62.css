@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 400px;
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 40px auto;
+  line-height: 1.6rem;
+  hyphens: auto;
+}
+
+li::marker {
+  /* transform: translate(4px, 45px);
+  text-align: right;
+  margin-left: 1em;
+  padding-left: 1em; */
+  content: "•\2004";
+}
+
+.pull-quote::marker {
+  content: "“\200A";
+}
