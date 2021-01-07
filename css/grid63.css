@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 800px;
+  margin: 50px auto;
+}
+
+body p {
+  font-family: myriad-pro;
+  color: #444;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.3em;
+  word-spacing: 0.1rem;
+  text-underline-position: under;
+  text-rendering: optimizeLegibility;
+}
+
+u {
+  text-decoration-color: #307fe2;
+  text-decoration-thickness: 0.07em;
+}
+
+p:first-child {
+  font-size: 3.3rem;
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: -1px;
+  margin-block-start: 1em;
+  text-underline-position: auto;
+  margin-bottom: 1em;
+}
