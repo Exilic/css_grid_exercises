@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  padding: 100px;
+}
+
+article {
+  width: 300px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+article img {
+  width: 100%;
+}
+
+article h3 {
+  text-align: center;
+  padding: 20px 0;
+  font-family: myriad-pro;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
