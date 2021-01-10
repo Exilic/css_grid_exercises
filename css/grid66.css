@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 360px;
+  margin: 100px auto;
+  font-family: myriad-pro;
+}
+
+section {
+  position: relative;
+}
+section img {
+  transition: 0.5s ease;
+}
+
+section div {
+  opacity: 0;
+  transition: 0.5s ease;
+  position: absolute;
+  background-color: #4ba2ff;
+  color: white;
+  padding: 16px 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -50%);
+}
+
+section:hover img {
+  opacity: 0.3;
+}
+
+section:hover div {
+  opacity: 1;
+}
