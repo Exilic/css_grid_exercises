@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 10px 2vw;
+  font-family: minion-3-display;
+  display: grid;
+  grid-template-columns: 24vw 24vw 24vw 24vw;
+}
+
+body * {
+  line-height: 1.8rem;
+  hyphens: auto;
+}
+
+body p:nth-child(1) {
+  transform: translate(0, 7px);
+  grid-column: 1 / 2;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  color: #4e2e0e;
+}
+
+body p:nth-child(2) {
+  transform: translate(0, 5px);
+  grid-column: 2 / 3;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  color: #794715;
+}
+
+body p:nth-child(3) {
+  transform: translate(0, 3px);
+  grid-column: 3 / 4;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: #ad661f;
+}
+
+body p:nth-child(4) {
+  grid-column: 4 / 5;
+  font-size: 2.6rem;
+  color: #da822b;
+}
