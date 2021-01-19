@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 12rem;
+  letter-spacing: -0.3rem;
+  line-height: 9rem;
+  color: #666;
+}
+
+p {
+  font-weight: 500;
+  font-size: 2.5rem;
+  letter-spacing: -0.1rem;
+  word-spacing: 0.3rem;
+  line-height: 3.2rem;
+  padding-left: 30vw;
+  padding-right: 20vw;
+  color: #888;
+}
