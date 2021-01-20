@@ -1,0 +1,14 @@
+body {
+  font-family: myriad-pro;
+  font-size: 3rem;
+  color: #333;
+  display: flex;
+}
+
+img:nth-child(2) {
+  clip-path: circle(26%);
+}
+
+img:nth-child(3) {
+  width: 30%;
+}
