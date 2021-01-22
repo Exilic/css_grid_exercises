@@ -1,0 +1,21 @@
+body {
+  background-color: #888;
+  font-family: minion-3-display;
+  width: 70vw;
+  margin: 50px auto;
+}
+
+h1 {
+  color: #bbb;
+  font-size: 4.5rem;
+  font-weight: 500;
+  border-top: #999 dotted 4px;
+}
+p {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  line-height: 3.6rem;
+  text-decoration: underline dotted #999;
+  text-underline-position: under;
+  color: #bbb;
+}
