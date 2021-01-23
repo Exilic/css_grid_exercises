@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: deeppink;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #111;
+  color: #fff;
+}
+
+li {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 1.3rem;
+  letter-spacing: 10px;
+}
