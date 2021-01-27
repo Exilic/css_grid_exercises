@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 60vw;
+  margin: 5vh auto;
+}
+
+article {
+  column-width: 20vw;
+  hyphens: auto;
+  font-family: minion-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+article h1 {
+  column-span: all;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+p + p {
+  text-indent: 1rem;
+}
