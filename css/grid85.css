@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: myriad-pro;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin: 100px;
+  background-color: #eef;
+}
+
+body p:nth-child(1) {
+  color: #aaf;
+  transform: translate(-40px, -70px) rotate(-10deg);
+}
+
+body p:nth-child(2) {
+  color: #99f;
+  transform: translate(-30px, -60px) rotate(-8deg);
+}
+
+body p:nth-child(3) {
+  color: #88f;
+  transform: translate(-20px, -50px) rotate(-6deg);
+}
+
+body p:nth-child(4) {
+  color: #77f;
+  transform: translate(-10px, -40px) rotate(-4deg);
+}
+
+body p:nth-child(5) {
+  color: #66f;
+  transform: translate(0px, -30px) rotate(-2deg);
+}
