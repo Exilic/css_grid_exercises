@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  display: grid;
+  grid-template-rows: 50px auto 200px;
+}
+
+body > header {
+  grid-row: 1 / 2;
+  background-color: #ccc;
+}
+
+body > footer {
+  border-top: 1px solid #ccc;
+  margin-top: 50px;
+}
+
+body > header ul {
+  display: flex;
+  justify-content: flex-start;
+  color: #333;
+  list-style: none;
+  font-family: myriad-pro;
+  font-weight: 600;
+  font-size: 13px;
+  margin: 10px 50px;
+}
+
+body > header ul li {
+  background-color: white;
+  padding: 12px 30px 12px 30px;
+
+  border-radius: 15px 15px 0px 0px;
+}
+
+body > header ul li:nth-child(1) {
+  background-color: #f4713b;
+}
+
+body > header ul li:nth-child(2) {
+  background-color: #f7e884;
+}
+
+body > header ul li:nth-child(3) {
+  background-color: #62c174;
+}
+
+body > header ul li:nth-child(1):hover {
+  background-color: #f06327;
+}
+
+body > header ul li:nth-child(2):hover {
+  background-color: #f7e25c;
+}
+
+body > header ul li:nth-child(3):hover {
+  background-color: #40be57;
+}
+
+body main header {
+  max-width: 800px;
+}
+
+body main h1 {
+  font-family: minion-3-display;
+  font-style: italic;
+  font-size: 6rem;
+  font-weight: 500;
+  line-height: 6.5rem;
+  letter-spacing: -3px;
+  margin: 6rem 0 1rem 1rem;
+}
+
+body main h1 span {
+  color: #aecbd9;
+  font-style: normal;
+}
+
+body main img {
+  width: 70%;
+}
+
+body main article {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-left: 1rem;
+}
+
+body main h2 {
+  font-family: minion-3-display;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-right: 4rem;
+}
+
+body main p {
+  font-family: myriad-pro;
+  font-weight: 400;
+  font-size: 0.9rem;
+  hyphens: auto;
+}
