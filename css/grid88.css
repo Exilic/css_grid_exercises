@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 40vw 60vw;
+  margin-top: 100px;
+}
+
+body main {
+  grid-column: 1 / 2;
+}
+
+body aside {
+  grid-column: 2 / 3;
+  display: flex;
+  flex-flow: wrap;
+}
+
+body aside section {
+  max-width: 200px;
+}
