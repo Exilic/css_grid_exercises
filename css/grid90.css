@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  font-family: myriad-pro;
+  color: #333;
+  width: 360px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+main > img {
+  order: -1;
+}
