@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 0.5rem;
+  margin: 1rem;
+}
+
+section {
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+section img {
+  order: -1;
+}
+
+section h2 {
+  transform: translateY(-1rem);
+  padding-left: 1rem;
+}
+
+section p {
+  padding: 0 0 1rem 1rem;
+}
