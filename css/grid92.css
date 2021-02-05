@@ -1,0 +1,19 @@
+body {
+  background-image: url(/images/anchoring.png);
+  background-repeat: no-repeat;
+  background-color: bisque;
+  background-blend-mode: color-burn;
+}
+
+h1 {
+  font-family: myriad-pro;
+  font-size: 3rem;
+  color: blueviolet;
+  margin: 300px 300px;
+  width: 360px;
+  height: 360px;
+  background-color: bisque;
+  background-image: url(/images/integrity.png);
+  background-repeat: no-repeat;
+  background-blend-mode: exclusion;
+}
