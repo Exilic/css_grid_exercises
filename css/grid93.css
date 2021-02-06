@@ -1,0 +1,16 @@
+body {
+  background-color: bisque;
+  width: 20vw;
+  margin: 10vh auto;
+}
+
+main {
+  font-size: 3vw;
+  font-family: myriad-pro;
+  color: #ffb24e;
+  transform: scaleY(2) skewX(25deg) rotate(20deg);
+}
+
+main p {
+  font-size: 1vw;
+}
