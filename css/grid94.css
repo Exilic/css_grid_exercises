@@ -1,0 +1,28 @@
+body {
+  width: 400px;
+  margin: 200px auto;
+}
+
+h1 {
+  font-family: myriad-pro;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+p {
+  font-family: minion-pro, serif;
+  font-weight: 400;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bold.italic {
+  font-weight: 700;
+  font-style: italic;
+}
