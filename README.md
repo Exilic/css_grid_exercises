@@ -1,16 +1,14 @@
 # Daily Exercises in CSS
 
----
 
-A sample of the more interesting daily exercises done.
 
-The motivation for making them were one part learning CSS, 
-
-one part visual experimentation. One rule was to never use 
-
-class or id as selectors. All html-code is semantic.
+### A sample of the more interesting daily exercises done.
+#### The motivation for making them were one part learning CSS, one part visual experimentation. 
+#### One rule was to never use class or id as selectors.
+#### All html-code used were semantic.
 
 ---
+
 
 <img src="https://github.com/Exilic/css_grid_exercises/blob/master/Info/00.03.png" width="30%" height="30%" padding="10px"><img src="https://github.com/Exilic/css_grid_exercises/blob/master/Info/03.24.png" width="30%" height="30%" padding="10px"><img src="https://github.com/Exilic/css_grid_exercises/blob/master/Info/01.07.png" width="30%" height="30%" padding="10px">
 
